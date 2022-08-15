@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(247, 215, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: purple;
+}
+h1#titulo {
+    text-align: center;
+    background-color: purple;
+    color: rgb(247, 215, 247);
+    padding: 15PX;
+}
+h2{
+    color: rgb(112, 57, 112);
+}
+
+.basico{
+color: rgb(79, 163, 79);
+}
+.intermediario{
+color: rgb(163, 155, 79);
+}
+.avançado{
+color: rgb(163, 85, 79);
+}
+.destaque{
+    background-color: rgba(173, 75, 173, 0.466);
+}
