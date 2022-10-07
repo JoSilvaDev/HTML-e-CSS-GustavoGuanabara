@@ -9,14 +9,17 @@
 <body>
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="get">
-        <p><label for="iemail">E-mail</label>
-        <input type="email" name="mail" id="iemail" required autocomplete="email" autofocus></p>
-        <p>
-            <label for="itel">Telefone</label>
-            <input type="tel" name="tel" id="itel" autocomplete="tel">
-        </p>
-        <p><input type="submit" value="Enviar">
-        <input type="reset" value="Limpar"></p>
+        <fieldset>
+            <legend>Dados</legend>
+            <p><label for="iemail">E-mail</label>
+            <input type="email" name="mail" id="iemail" required autocomplete="email" autofocus></p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel">
+            </p>
+            <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"></p>
+        </fieldset>
     </form>
 </body>
 </html>
