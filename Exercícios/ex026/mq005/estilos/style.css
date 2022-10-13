@@ -31,7 +31,8 @@ span#menu{
 }
 
 span#menu:hover{
-    color: black;
+    color: rgb(24, 16, 140);
+    text-shadow: 1px 1px 2px white;
     cursor: pointer;
 }
 
